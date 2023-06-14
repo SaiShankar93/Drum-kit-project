@@ -6,7 +6,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
         buttonAnimation(buttonInnerHTML);
     });
 }
-//playing audion by using keyboard letters
+//playing audio by using keyboard letters
 document.addEventListener("keydown",function(event){
     makeSound(event.key);
     buttonAnimation(event.key);
