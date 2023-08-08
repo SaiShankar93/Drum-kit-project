@@ -1,4 +1,4 @@
-//for playing audio by using buttons
+//for playing audio  using buttons
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var buttonInnerHTML = this.innerHTML;
