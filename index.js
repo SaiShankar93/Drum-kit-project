@@ -52,7 +52,7 @@ function makeSound(key){
             break;
     }
 }
-//function for animation for the button 
+//function for animation of the button 
 function buttonAnimation(currentKey){
     var activeButton = document.querySelector("."+currentKey);
     activeButton.classList.add("pressed");
